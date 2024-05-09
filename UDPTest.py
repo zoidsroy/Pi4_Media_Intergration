@@ -14,3 +14,4 @@ while True:
     # 接收來自客戶端的訊息
     data, addr = sock.recvfrom(1024)
     print("Received message:", data.decode())
+
